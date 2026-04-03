@@ -1274,3 +1274,60 @@ https://templatemo.com/tm-597-neural-glass
      box-shadow: 0 0 15px rgba(0, 85, 255, 0.7);
 }
 
+/* Extra small devices (phones, 480px and down) */
+@media (max-width: 480px) {
+    header {
+        padding: 12px 15px;
+        width: 90%;
+    }
+    .logo {
+        font-size: 20px;
+    }
+    .hero-content {
+        padding: 20px 10px;
+        margin-top: 100px;
+    }
+    .hero-stats {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+    .hexagon {
+        width: 240px;
+        height: 270px;
+    }
+    .hexagon-inner {
+        padding: 40px 20px;
+    }
+    .hexagon-container {
+        gap: 15px;
+    }
+    .timeline-line {
+        left: 20px;
+    }
+    .timeline-dot {
+        left: 20px;
+    }
+    .timeline-item, .timeline-item:nth-child(even) {
+        padding-left: 60px;
+    }
+    .contact-info, .contact-form {
+        padding: 30px 20px;
+    }
+    .contact-info h3 {
+        font-size: 2rem;
+    }
+    .section-title {
+        font-size: 2rem;
+        margin-bottom: 40px;
+    }
+    .feature-content {
+        padding: 30px 20px;
+    }
+    .feature-content h3 {
+        font-size: 1.8rem;
+    }
+    .mobile-nav {
+        width: 95%;
+        padding: 20px 15px;
+    }
+}
