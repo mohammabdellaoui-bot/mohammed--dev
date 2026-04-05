@@ -1,8 +1,7 @@
 /*
 
-TemplateMo 597 Neural Glass
-
-https://templatemo.com/tm-597-neural-glass
+TemplateMo 597 Matrix Glass
+https://templatemo.com/tm-597-matrix-glass
 
 */
 
@@ -26,7 +25,7 @@ https://templatemo.com/tm-597-neural-glass
      -moz-osx-font-smoothing: grayscale;
 }
 /* Enhanced background colors - Purple/Pink/Green palette */
- .neural-background {
+ .matrix-background {
      position: fixed;
      top: 0;
      left: 0;
@@ -106,8 +105,8 @@ https://templatemo.com/tm-597-neural-glass
          opacity: 0;
     }
 }
-/* Neural network lines */
- .neural-lines {
+/* Network lines */
+ .matrix-lines {
      position: fixed;
      top: 0;
      left: 0;
@@ -115,34 +114,34 @@ https://templatemo.com/tm-597-neural-glass
      height: 100%;
      z-index: -1;
 }
- .neural-line {
+ .matrix-line {
      position: absolute;
      background: linear-gradient(90deg, transparent, #00ffff, transparent);
      height: 1px;
-     animation: neuralPulse 3s ease-in-out infinite;
+     animation: matrixPulse 3s ease-in-out infinite;
 }
- .neural-line:nth-child(1) {
+ .matrix-line:nth-child(1) {
      top: 20%;
      left: 0;
      width: 100%;
      background: linear-gradient(90deg, transparent, #a3d0ff, transparent);
      animation-delay: 0s;
 }
- .neural-line:nth-child(2) {
+ .matrix-line:nth-child(2) {
      top: 60%;
      left: 0;
      width: 100%;
      background: linear-gradient(90deg, transparent, #00bfff, transparent);
      animation-delay: -1s;
 }
- .neural-line:nth-child(3) {
+ .matrix-line:nth-child(3) {
      top: 40%;
      left: 0;
      width: 100%;
      background: linear-gradient(90deg, transparent, #4169e1, transparent);
      animation-delay: -2s;
 }
- @keyframes neuralPulse {
+ @keyframes matrixPulse {
      0%, 100% {
          opacity: 0.2;
          transform: scaleX(0.5);
@@ -730,13 +729,13 @@ https://templatemo.com/tm-597-neural-glass
      background: linear-gradient(45deg, rgba(163, 208, 255, 0.2), rgba(0, 191, 255, 0.2));
 }
  .feature-row:nth-child(1) .feature-visual {
-     background-image: url('images/templatemo-neural-01.jpg');
+     background-image: url('images/templatemo-matrix-01.jpg');
 }
  .feature-row:nth-child(2) .feature-visual {
-     background-image: url('images/templatemo-neural-02.jpg');
+     background-image: url('images/templatemo-matrix-02.jpg');
 }
  .feature-row:nth-child(3) .feature-visual {
-     background-image: url('images/templatemo-neural-03.jpg');
+     background-image: url('images/templatemo-matrix-03.jpg');
 }
  .feature-icon {
      font-size: 4rem;
@@ -843,91 +842,7 @@ https://templatemo.com/tm-597-neural-glass
  .hexagon:hover p {
      transform: rotate(0deg);
 }
-/* Section 4: Enhanced Timeline */
- .timeline {
-     padding: 100px 0;
-     position: relative;
-}
- .timeline-container {
-     max-width: 1100px;
-     margin: 0 auto;
-     position: relative;
-     padding: 0 20px;
-}
- .timeline-line {
-     position: absolute;
-     left: 50%;
-     top: 0;
-     bottom: 0;
-     width: 4px;
-     background: linear-gradient(180deg, #a3d0ff, #00bfff, #4169e1);
-     transform: translateX(-50%);
-     border-radius: 2px;
-     box-shadow: 0 0 20px rgba(163, 208, 255, 0.3);
-}
- .timeline-item {
-     display: flex;
-     justify-content: flex-end;
-     padding-right: 60px;
-     position: relative;
-     margin-bottom: 60px;
-}
- .timeline-item:nth-child(even) {
-     justify-content: flex-start;
-     padding-left: 60px;
-     padding-right: 0;
-}
- .timeline-content {
-     max-width: 450px;
-     padding: 50px 40px;
-     position: relative;
-     transform: perspective(1000px) rotateY(-5deg);
-     transition: all 0.4s ease;
-     background: rgba(163, 208, 255, 0.08);
-     backdrop-filter: blur(25px);
-     border: 1px solid rgba(163, 208, 255, 0.15);
-     border-radius: 25px;
-     box-shadow: 0 12px 40px rgba(0, 0, 0, 0.3), inset 0 1px 0 rgba(255, 255, 255, 0.1);
-}
- .timeline-item:nth-child(even) .timeline-content {
-     transform: perspective(1000px) rotateY(5deg);
-}
- .timeline-content:hover {
-     transform: perspective(1000px) rotateY(0deg) translateZ(20px);
-     box-shadow: 0 25px 60px rgba(163, 208, 255, 0.2), 0 0 0 1px rgba(163, 208, 255, 0.2), inset 0 1px 0 rgba(255, 255, 255, 0.15);
-     border-color: rgba(163, 208, 255, 0.3);
-}
- .timeline-dot {
-     position: absolute;
-     left: 50%;
-     top: 60px;
-     transform: translateX(-50%);
-     width: 24px;
-     height: 24px;
-     background: linear-gradient(135deg, #00bfff, #a3d0ff);
-     border-radius: 50%;
-     box-shadow: 0 0 25px rgba(0, 191, 255, 0.6), 0 4px 15px rgba(0, 0, 0, 0.3);
-     z-index: 1;
-     border: 3px solid rgba(255, 255, 255, 0.2);
-}
- .timeline-year {
-     font-size: 1.8rem;
-     color: #a3d0ff;
-     margin-bottom: 20px;
-     font-weight: bold;
-     text-shadow: 0 0 15px rgba(163, 208, 255, 0.4);
-}
- .timeline-content h4 {
-     font-size: 1.5rem;
-     color: #ffffff;
-     margin-bottom: 20px;
-     font-weight: 600;
-}
- .timeline-content p {
-     color: #d1d1d1;
-     line-height: 1.7;
-     font-size: 1rem;
-}
+
 /* Section 5: Contact */
  .contact {
      padding: 150px 0;
@@ -1144,20 +1059,7 @@ https://templatemo.com/tm-597-neural-glass
          gap: 40px;
     }
 
-     .timeline-line {
-         left: 30px;
-    }
-     .timeline-item, .timeline-item:nth-child(even) {
-         justify-content: flex-start;
-         padding-left: 80px;
-         padding-right: 0;
-    }
-     .timeline-dot {
-         left: 30px;
-    }
-     .timeline-content {
-         max-width: 100%;
-    }
+
 }
 
 @media (max-width: 1000px) {
@@ -1242,11 +1144,8 @@ https://templatemo.com/tm-597-neural-glass
      .section-title {
          margin-bottom: 60px;
     }
-     .features, .showcase, .timeline, .contact {
+     .features, .showcase, .contact {
          padding: 80px 0;
-    }
-     .timeline {
-         padding: 60px 0;
     }
      .footer-links {
          gap: 20px;
@@ -1301,15 +1200,7 @@ https://templatemo.com/tm-597-neural-glass
     .hexagon-container {
         gap: 15px;
     }
-    .timeline-line {
-        left: 20px;
-    }
-    .timeline-dot {
-        left: 20px;
-    }
-    .timeline-item, .timeline-item:nth-child(even) {
-        padding-left: 60px;
-    }
+
     .contact-info, .contact-form {
         padding: 30px 20px;
     }
@@ -1329,5 +1220,211 @@ https://templatemo.com/tm-597-neural-glass
     .mobile-nav {
         width: 95%;
         padding: 20px 15px;
+    }
+}
+
+/* Skills Section */
+.skills-section {
+    padding: 100px 5%;
+    position: relative;
+    z-index: 2;
+}
+
+.skills-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+.skill-item {
+    margin-bottom: 30px;
+}
+
+.skill-item:last-child {
+    margin-bottom: 0;
+}
+
+.skill-info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    font-family: 'Space Grotesk', sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.skill-name {
+    font-weight: 600;
+}
+
+.skill-bar {
+    height: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+}
+
+.skill-progress {
+    height: 100%;
+    background: linear-gradient(90deg, var(--neon-cyan), var(--neon-pink));
+    border-radius: 5px;
+    position: relative;
+    box-shadow: 0 0 10px var(--neon-cyan);
+}
+
+.skill-progress::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.5), transparent);
+    animation: loadingBar 2s infinite linear;
+}
+
+@keyframes loadingBar {
+    0% { transform: translateX(-100%); }
+    100% { transform: translateX(100%); }
+}
+
+@media (max-width: 480px) {
+    .chatbot-widget {
+        width: calc(100% - 40px);
+        bottom: 85px;
+    }
+}
+/* Professional Portfolio Styles */
+.about-section, .portfolio-section, .testimonials-section {
+    padding: 100px 5%;
+    position: relative;
+    z-index: 2;
+}
+
+.about-card {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+.about-text p {
+    font-size: 1.2rem;
+    margin-bottom: 25px;
+    color: rgba(163, 208, 255, 0.9);
+}
+
+.neon-btn {
+    display: inline-block;
+    padding: 15px 30px;
+    background: transparent;
+    border: 2px solid var(--neon-cyan);
+    color: var(--neon-cyan);
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 15px rgba(0, 255, 255, 0.3);
+}
+
+.neon-btn:hover {
+    background: var(--neon-cyan);
+    color: #000;
+    box-shadow: 0 0 30px var(--neon-cyan);
+}
+
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.portfolio-card {
+    border-radius: 20px;
+    overflow: hidden;
+    transition: transform 0.4s ease;
+}
+
+.portfolio-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 30px var(--neon-cyan);
+}
+
+.card-content {
+    padding: 25px;
+}
+
+.card-content h4 {
+    color: var(--neon-cyan);
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+}
+
+.card-links {
+    margin-top: 20px;
+    display: flex;
+    gap: 15px;
+}
+
+.glass-btn {
+    padding: 8px 15px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    transition: background 0.3s;
+}
+
+.glass-btn:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.dual-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+}
+
+.sub-title {
+    font-size: 1.8rem;
+    color: var(--neon-pink);
+    margin-bottom: 30px;
+    letter-spacing: 3px;
+}
+
+.certs-list {
+    padding: 30px;
+    border-radius: 15px;
+}
+
+.cert-item {
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.testimonial-card {
+    padding: 40px;
+    border-radius: 20px;
+    font-style: italic;
+}
+
+.testimonial-author {
+    display: block;
+    margin-top: 20px;
+    color: var(--neon-cyan);
+    font-style: normal;
+    font-weight: 600;
+}
+
+@media (max-width: 768px) {
+    .dual-grid {
+        grid-template-columns: 1fr;
     }
 }

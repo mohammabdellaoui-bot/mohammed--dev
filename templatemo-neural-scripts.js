@@ -2,9 +2,8 @@
 
 /*
 
-TemplateMo 597 Neural Glass
-
-https://templatemo.com/tm-597-neural-glass
+TemplateMo 597 Matrix Glass
+https://templatemo.com/tm-597-matrix-glass
 
 */
 
@@ -103,10 +102,10 @@ https://templatemo.com/tm-597-neural-glass
             });
         });
 
-        // Neural lines pulse effect
-        const neuralLines = document.querySelectorAll('.neural-line');
+        // Network lines pulse effect
+        const matrixLines = document.querySelectorAll('.matrix-line');
         setInterval(() => {
-            neuralLines.forEach((line, index) => {
+            matrixLines.forEach((line, index) => {
                 setTimeout(() => {
                     line.style.opacity = '1';
                     line.style.transform = 'scaleX(1.2)';
@@ -164,27 +163,7 @@ https://templatemo.com/tm-597-neural-glass
             });
         }, observerOptions);
 
-        // Observe timeline items and hexagons
-        document.querySelectorAll('.timeline-content, .hexagon').forEach(el => {
-            el.style.opacity = '0';
-            el.style.transform = 'translateY(50px)';
-            el.style.transition = 'opacity 0.8s ease, transform 0.8s ease';
-            observer.observe(el);
-        });
 
-        // Form submission effect
-        document.querySelector('.submit-btn').addEventListener('click', function(e) {
-            e.preventDefault();
-            this.innerHTML = 'TRANSMITTING...';
-            this.style.background = 'linear-gradient(45deg, #8000ff, #00ffff)';
-            
-            setTimeout(() => {
-                this.innerHTML = 'TRANSMISSION COMPLETE';
-                this.style.background = 'linear-gradient(45deg, #00ff00, #00ffff)';
-                
-                setTimeout(() => {
-                    this.innerHTML = 'TRANSMIT TO MATRIX';
-                    this.style.background = 'linear-gradient(45deg, #00ffff, #ff0080)';
-                }, 2000);
-            }, 1500);
-        });
+
+
+
